@@ -1,0 +1,32 @@
+.ingredients-list {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.ingredients-list::-webkit-scrollbar {
+    width: 4px;
+}
+
+.ingredients-list::-webkit-scrollbar-thumb {
+    background-color: #c4c2c2;
+    border-radius: 3px;
+}
+
+.list-group {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.recipe-image {
+    border-radius: 30px;
+    padding: 10px 0px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
